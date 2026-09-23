@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "graphql": "^15.10.3",
+    "graphql-http": "^1.23.0",
+    "mysql2": "^3.24.4",
+    "ruru": "^2.0.2"
+  },
+  "name": "graphql_taller05",
+  "version": "1.0.0",
+  "description": "API GraphQL CRUD de usuarios conectada a MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  }
+}
